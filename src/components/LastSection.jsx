@@ -5,7 +5,7 @@ import deep from "../assets/img/png/deep.png";
 function LastSection() {
   return (
     <section className=" footer_bg position-relative">
-      <div className=" position-absolute bottom-0 d-none d-md-flex">
+      <div className=" position-absolute bottom-0 d-none d-lg-flex">
         <img className="w-100 img_up_dawn" src={deep} alt="deep" />
       </div>
       <Container>
