@@ -451,7 +451,7 @@
   }
   .phase2_text {
     position: absolute;
-    top: 20%;
+    top: 21%;
     right: 39%;
   }
   .phase3_text {
@@ -461,13 +461,13 @@
   }
   .phase4_text {
     position: absolute;
-    top: 63%;
+    top: 64%;
     right: 38%;
   }
   .phase5_text {
     position: absolute;
     bottom: -2%;
-    right: -5%;
+    right: -6%;
   }
   .phase1_img {
     position: absolute;
@@ -492,7 +492,7 @@
   .phase5_img {
     position: absolute;
     bottom: -1%;
-    left: 25%;
+    left: 26%;
   }
   .animation1 {
     animation: scrooll 4s linear infinite;
