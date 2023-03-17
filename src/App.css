@@ -263,15 +263,6 @@
   }
 }
 
-.animation_scroolx {
-  animation: scrowl 10s linear infinite;
-}
-
-@keyframes scrowl {
-  50% {
-  }
-}
-
 .animation_move_y1 {
   animation: moves1 3s 1s ease-in-out infinite;
 }
@@ -356,7 +347,7 @@
   :root {
     --fs-xsm: 12px;
     --fs-sm: 14px;
-    --fs-md: 15px;
+    --fs-md: 13px;
     --fs-lg: 17px;
     --fs-xl: 20px;
     --fs-xxl: 26px;
@@ -366,7 +357,9 @@
   .vh_65_xsm {
     min-height: 65vh;
   }
-
+  .vh_45_xsm {
+    min-height: 45vh;
+  }
   .w_240_xsm {
     width: 240px;
   }
