@@ -182,7 +182,7 @@ function LastSection() {
             </a>
           </div>{" "}
         </div>
-        <div className="text-center pb-5">
+        <div className="text-center pb-3">
           <p className="ff_inter fs_xsm fw-lighter text-white mb-0">
             Copyright@2022DeepSpaceBrawl.com
           </p>
