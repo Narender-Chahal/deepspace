@@ -32,10 +32,10 @@ function GamePlay() {
           alt="uranus"
         />
         <Container>
-          <h2 className="text-center pt-2 pt-xl-5 text-white fs_3xl ff_Grandstander fw-semibold">
+          <h2 className="text-center pt-2 pt-xl-5 text-white text_decoration fs_3xl ff_Grandstander fw-semibold">
             Game Play
           </h2>
-          <div className="vh_45_xsm vh_65_sm vh_75_md vh_85_lg align-items-center d-flex h-100 justify-content-center ">
+          <div className="vh_45_xsm vh_50_sm vh_60_md vh_85_lg align-items-center d-flex h-100 justify-content-center ">
             <div className="position-relative">
               <img
                 src={videoImage}

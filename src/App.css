@@ -414,6 +414,10 @@
     min-height: 65vh;
   }
 
+  .vh_50_sm {
+    min-height: 50vh;
+  }
+
   :root {
     --fs-xsm: 12px;
     --fs-sm: 14px;
@@ -523,6 +527,9 @@
 
   .vh_75_md {
     min-height: 75vh;
+  }
+  .vh_60_md {
+    min-height: 60vh;
   }
 
   .w_450_md {
@@ -781,7 +788,9 @@
   .vh_100_xl {
     min-height: 100vh;
   }
-
+  .vh_95_xl {
+    min-height: 100vh;
+  }
   .w_750_xl {
     width: 750px;
   }

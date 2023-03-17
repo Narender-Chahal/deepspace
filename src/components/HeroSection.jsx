@@ -6,9 +6,9 @@ import { Container } from "react-bootstrap";
 
 function HeroSection() {
   return (
-    <div className="position-relative">
+    <div className="position-relative ">
       <Container>
-        <div className="py-5 mt-lg-3 mt-xl-5 ">
+        <div className="py-5 mt-lg-3 mt-xl-5  ">
           <img
             className="animation_move_y position-absolute positionImage_xl positionImage_xxl d-none d-xl-block"
             src={astoroger}
@@ -32,7 +32,7 @@ function HeroSection() {
             felis, dolor porta tincidunt consectetur nulla ac facilisis. Elit
             commodo amet, auctor et. Donec aliquet viverra in mauris nunc.
           </p>
-          <div className="d-flex justify-content-center mt-md-4 mt-3" >
+          <div className="d-flex justify-content-center mt-md-4 mt-3">
             <a
               className="ff_Grandstander fs_xl fw-semibold text-white heroBtn"
               href="#"

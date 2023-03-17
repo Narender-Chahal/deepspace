@@ -16,7 +16,7 @@ import LastSection from "./components/LastSection";
 function App() {
   return (
     <>
-      <div className="heroImage vh_100_xl vh_65_xsm vh_65_sm vh_75_md vh_85_lg">
+      <div className="heroImage vh_100_xl vh_65_xsm vh_65_sm vh_75_md vh_85_lg vh_95_xl  ">
         <NavBar />
         <HeroSection />
       </div>
