@@ -15,7 +15,7 @@ function Faq() {
           <Col lg={8}>
             <div className="pt-5">
               {" "}
-              <Accordion>
+              <Accordion defaultActiveKey={1}>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <p className="mb-0 ff_Grandstander  fw-medium fs_lg text-white">
