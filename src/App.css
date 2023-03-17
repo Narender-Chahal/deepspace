@@ -7,15 +7,19 @@
   text-decoration: none !important;
   box-sizing: border-box;
 }
+
 .ff_Grandstander {
   font-family: "Grandstander", sans-serif;
 }
+
 .ff_inter {
   font-family: "Inter", sans-serif;
 }
+
 .ff_madali {
   font-family: "Mandali", sans-serif;
 }
+
 :root {
   --fs-xsm: 12px;
   --fs-sm: 16px;
@@ -25,24 +29,1075 @@
   --fs-xxl: 32px;
   --fs-3xl: 70px;
 }
+
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
+
 .fs_sm {
   font-size: var(--fs-sm);
 }
+
 .fs_md {
   font-size: var(--fs-md);
 }
+
 .fs_lg {
   font-size: var(--fs-lg);
 }
+
 .fs_xl {
   font-size: var(--fs-xl);
 }
+
 .fs_xxl {
   font-size: var(--fs-xxl);
 }
+
 .fs_3xl {
   font-size: var(--fs-3xl);
+}
+
+/* bacvkground color */
+.navBackgroud {
+  background: #08012c;
+  opacity: 0.8;
+}
+
+.bg_blue {
+  background-color: #090128;
+}
+.bg_color {
+  background: #090128;
+}
+
+/* shadow */
+.text_shadow {
+  -webkit-text-stroke: 1px #ba5ea7 !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text_decoration {
+  -webkit-text-stroke: 1px #ba5ea7;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* bg_images */
+.heroImage {
+  background-image: url(./assets/img/png/heroImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_card {
+  background-image: url(./assets/img/png/ladies.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_bg {
+  background-image: url(./assets//img/png/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #090128;
+  z-index: 3;
+  background-blend-mode: color-dodge;
+}
+.bg_transparent {
+  background-color: transparent !important;
+}
+/* max-width */
+.mw_400 {
+  max-width: 400px;
+}
+.mw_250 {
+  max-width: 250px;
+}
+/* btn */
+.heroBtn {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 15px 50px;
+  background: linear-gradient(180deg, #ff00f4 0%, #3d78fe 100%);
+  transition: 1s ease-in-out;
+}
+.lorem_btn {
+  background: #020826;
+  border: 1px solid #020922;
+  padding: 3px 15px;
+}
+
+/* other */
+.box {
+  border: 1.3px solid #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.8s ease-in-out;
+}
+
+.radialGridient {
+  /* background: radial-gradient(56.32% 89.94% at 50.44% 49.6%, #003869 0%, #070B15 100%); */
+  opacity: 0.8;
+  background-color: #090128 !important;
+}
+.vh_80 {
+  min-height: 80vh;
+}
+.transform_rotate {
+  transform: rotate(-5deg);
+}
+
+.opacity_image {
+  opacity: 0.7 !important;
+}
+
+.linearGridient {
+  background: linear-gradient(
+    180deg,
+    #000013 0%,
+    rgba(1, 0, 19, 0.68) 15.94%,
+    rgba(4, 0, 25, 0.56) 50.61%,
+    rgba(6, 0, 29, 0.2) 72.8%,
+    #090128 100%
+  );
+}
+
+.border_image {
+  border: 3.36px solid #1a8bd7;
+  border-radius: 9px;
+}
+
+.image_center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* after */
+.navLinks::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  width: 0;
+  height: 3px;
+  transition: 0.7s ease-in-out;
+  background-color: white;
+}
+
+.navLinks:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.white_roadmap::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+  background-color: #ffffff;
+  height: 105%;
+  width: 5px;
+}
+.dots::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: 0;
+  left: 0%;
+  z-index: 1;
+  transform: translateX(-20%);
+}
+
+/* animation */
+
+.img_up_dawn {
+  animation: up_dawn 4s ease-in-out infinite;
+}
+@keyframes up_dawn {
+  0% {
+    margin-bottom: 0;
+  }
+  50% {
+    margin-bottom: 80px;
+  }
+  100% {
+    margin-bottom: 0;
+  }
+}
+
+.img_animation {
+  animation: scrol 3s linear infinite;
+}
+@keyframes scrol {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translate(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.animation_move_y {
+  animation: moves 3s ease-in-out infinite;
+}
+
+@keyframes moves {
+  50% {
+    transform: translateY(-35px);
+  }
+}
+
+.animation_scroll_x {
+  animation: scrole 10s linear infinite;
+}
+
+@keyframes scrole {
+  50% {
+    transform: translate(-750%, -80px);
+  }
+}
+
+.animation_scroolx {
+  animation: scrowl 10s linear infinite;
+}
+
+@keyframes scrowl {
+  50% {
+  }
+}
+
+.animation_move_y1 {
+  animation: moves1 3s 1s ease-in-out infinite;
+}
+
+@keyframes moves1 {
+  50% {
+    transform: translate(-40px, 5px);
+  }
+}
+
+.animation_scrool {
+  animation: scrool 9s linear infinite reverse;
+}
+
+@keyframes scrool {
+  0% {
+    rotate: 360deg;
+  }
+
+  50% {
+    rotate: 180deg;
+  }
+
+  100% {
+    rotate: 360%;
+  }
+}
+
+.animation_scrool_reverse {
+  animation: scrool 8s 2s linear infinite;
+}
+
+@keyframes scrool {
+  0% {
+    rotate: 360deg;
+  }
+
+  50% {
+    rotate: 180deg;
+  }
+
+  100% {
+    rotate: 360%;
+  }
+}
+
+/* hover */
+.heroBtn:hover {
+  background: #ff00f4;
+}
+.box:hover {
+  border: 1.3px solid #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.box:hover svg path {
+  fill: #090128;
+}
+
+/* media screen */
+@media (max-width: 576px) {
+  .heroImage {
+    background-image: url(./assets/img/png/heroImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg_sky_image {
+    background-image: url(./assets/img/png/bgSky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .universe_image {
+    background-image: url(./assets/img/png/universeImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 15px;
+    --fs-lg: 17px;
+    --fs-xl: 20px;
+    --fs-xxl: 26px;
+    --fs-3xl: 45px;
+  }
+
+  .vh_65_xsm {
+    min-height: 65vh;
+  }
+
+  .w_240_xsm {
+    width: 240px;
+  }
+
+  .w_40_xsm {
+    width: 40px;
+  }
+
+  .w_100_xsm {
+    width: 100%;
+  }
+
+  .h_100_xsm {
+    height: 100%;
+  }
+
+  .h_200_xsm {
+    height: 200px;
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 25%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+  }
+}
+
+@media (min-width: 576px) {
+  .heroImage {
+    background-image: url(./assets/img/png/heroImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg_sky_image {
+    background-image: url(./assets/img/png/bgSky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .universe_image {
+    background-image: url(./assets/img/png/universeImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .vh_65_sm {
+    min-height: 65vh;
+  }
+
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 15px;
+    --fs-lg: 17px;
+    --fs-xl: 20px;
+    --fs-xxl: 26px;
+    --fs-3xl: 45px;
+  }
+
+  .w_340_sm {
+    width: 340px;
+  }
+
+  .w_540_sm {
+    width: 540px;
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 37%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 27%;
+  }
+  .mw_150_sm {
+    max-width: 150px;
+  }
+  .phase1_text {
+    position: absolute;
+    top: -3%;
+    left: 38%;
+  }
+  .phase2_text {
+    position: absolute;
+    top: 20%;
+    right: 39%;
+  }
+  .phase3_text {
+    position: absolute;
+    top: 43%;
+    right: 12%;
+  }
+  .phase4_text {
+    position: absolute;
+    top: 63%;
+    right: 38%;
+  }
+  .phase5_text {
+    position: absolute;
+    bottom: -2%;
+    right: -5%;
+  }
+  .phase1_img {
+    position: absolute;
+    top: -2%;
+    left: -3%;
+  }
+  .phase2_img {
+    position: absolute;
+    top: 22%;
+    right: -2%;
+  }
+  .phase3_img {
+    position: absolute;
+    top: 45%;
+    left: -2%;
+  }
+  .phase4_img {
+    position: absolute;
+    top: 65%;
+    right: -2%;
+  }
+  .phase5_img {
+    position: absolute;
+    bottom: -1%;
+    left: 25%;
+  }
+  .animation1 {
+    animation: scrooll 4s linear infinite;
+  }
+  @keyframes scrooll {
+    0% {
+      margin-bottom: 0;
+    }
+    50% {
+      margin-left: 50px;
+      margin-bottom: 50px;
+    }
+    100% {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 15px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 22px;
+    --fs-xxl: 28px;
+    --fs-3xl: 50px;
+  }
+
+  .vh_75_md {
+    min-height: 75vh;
+  }
+
+  .w_450_md {
+    width: 450px;
+  }
+
+  .w_650_md {
+    width: 650px;
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 32%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+  .phase1_img {
+    position: absolute;
+    top: -1%;
+    left: -4%;
+  }
+  .phase2_img {
+    position: absolute;
+    top: 22%;
+    right: -2%;
+  }
+  .phase3_img {
+    position: absolute;
+    top: 45%;
+    left: -3%;
+  }
+  .phase4_img {
+    position: absolute;
+    top: 65%;
+    right: -2%;
+  }
+  .phase5_img {
+    position: absolute;
+    bottom: -1%;
+    left: 29%;
+  }
+  .phase1_text {
+    position: absolute;
+    top: 0;
+    left: 33%;
+  }
+  .phase2_text {
+    position: absolute;
+    top: 23%;
+    right: 40%;
+  }
+  .phase3_text {
+    position: absolute;
+    top: 45%;
+    right: 30%;
+  }
+  .phase4_text {
+    position: absolute;
+    top: 66%;
+    right: 38%;
+  }
+  .phase5_text {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .mw_150_sm {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 15px;
+    --fs-md: 16px;
+    --fs-lg: 19px;
+    --fs-xl: 23px;
+    --fs-xxl: 30px;
+    --fs-3xl: 58px;
+  }
+
+  .vh_85_lg {
+    min-height: 85vh;
+  }
+
+  .w_550_lg {
+    width: 550px;
+  }
+
+  .w_750_lg {
+    width: 750px;
+  }
+
+  .transform_images_lg {
+    transform: rotate(5deg);
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 24%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+  }
+  .w_lg_none {
+    max-width: 780px !important;
+  }
+  .phase1_img {
+    position: absolute;
+    top: -1%;
+    left: 5%;
+  }
+  .phase2_img {
+    position: absolute;
+    top: 22%;
+    right: 5%;
+  }
+  .phase3_img {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .phase4_img {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+  }
+  .phase5_img {
+    position: absolute;
+    bottom: -1%;
+    left: 33%;
+  }
+  .phase1_text {
+    position: absolute;
+    top: 0;
+    left: 38%;
+  }
+  .phase2_text {
+    position: absolute;
+    top: 23%;
+    right: 40%;
+  }
+  .phase3_text {
+    position: absolute;
+    top: 45%;
+    right: 40%;
+  }
+  .phase4_text {
+    position: absolute;
+    top: 66%;
+    right: 38%;
+  }
+  .phase5_text {
+    position: absolute;
+    bottom: 0%;
+    right: 14%;
+  }
+  .mw_180 {
+    max-width: 150px;
+  }
+  .aeroplane1_img {
+    position: absolute;
+    top: 0;
+    right: 0%;
+  }
+  .aeroplane2_img {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+  }
+  .img1 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+  }
+  .sdfdse_img {
+    position: absolute;
+    right: 0%;
+    bottom: 35%;
+  }
+  .aeroplane2_animation {
+    animation: flew1 4s linear infinite;
+  }
+  @keyframes flew1 {
+    50% {
+      transform: translate(-30px, 100px);
+    }
+  }
+  .aeroplane1_animation {
+    animation: flew 4s linear infinite;
+  }
+  @keyframes flew {
+    50% {
+      transform: translate(10px, 100px);
+    }
+  }
+  .img_animation {
+    animation: scrol 3s linear infinite;
+  }
+  @keyframes scrol {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(-30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .img2_animation {
+    animation: scrol 3s linear infinite;
+  }
+  @keyframes scrol {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-xxl: 32px;
+    --fs-3xl: 70px;
+  }
+
+  .heroImage {
+    background-image: url(./assets/img/png/heroImage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bg_sky_image {
+    background-image: url(./assets/img/png/bgSky.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .vh_100_xl {
+    min-height: 100vh;
+  }
+
+  .w_750_xl {
+    width: 750px;
+  }
+
+  .w_1019_xl {
+    width: 1019px;
+  }
+
+  .mw_480_xl {
+    max-width: 480px;
+  }
+
+  .positionImage_xl {
+    bottom: -30%;
+    left: 6%;
+  }
+
+  .positionImage1_xl {
+    right: 8%;
+    bottom: -22%;
+  }
+
+  .iamge_position_xl {
+    right: 2%;
+    top: 10%;
+  }
+
+  .iamge_position2_xl {
+    left: 0%;
+    bottom: 6%;
+    z-index: -1;
+  }
+
+  .astroger_absolute_xl {
+    right: 9%;
+    top: 7%;
+  }
+
+  .layer_absolute2_xl {
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 0;
+  }
+
+  .layer_absolute_xl {
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+  }
+
+  .juptiter_absolute_xl {
+    right: 0;
+    top: 42%;
+  }
+
+  .urnaus_absolute_xl {
+    left: 15%;
+    top: 11%;
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 30%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 14%;
+  }
+  .phase1_img {
+    position: absolute;
+    top: -1%;
+    left: 12%;
+  }
+  .phase2_img {
+    position: absolute;
+    top: 22%;
+    right: 13%;
+  }
+  .phase3_img {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+  }
+  .phase4_img {
+    position: absolute;
+    top: 65%;
+    right: 13%;
+  }
+  .phase5_img {
+    position: absolute;
+    bottom: -1%;
+    left: 34%;
+  }
+  .phase1_text {
+    position: absolute;
+    top: 0;
+    left: 38%;
+  }
+  .phase2_text {
+    position: absolute;
+    top: 23%;
+    right: 40%;
+  }
+  .phase3_text {
+    position: absolute;
+    top: 45%;
+    right: 43%;
+  }
+  .phase4_text {
+    position: absolute;
+    top: 66%;
+    right: 38%;
+  }
+  .phase5_text {
+    position: absolute;
+    bottom: 0%;
+    right: 23%;
+  }
+  .mw_180 {
+    max-width: 100%;
+  }
+  .aeroplane1_img {
+    position: absolute;
+    top: 0;
+    right: 8%;
+  }
+  .aeroplane2_img {
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
+  }
+  .img1 {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+  }
+  .sdfdse_img {
+    position: absolute;
+    right: 2%;
+    bottom: 30%;
+  }
+  .mw_200_xl {
+    max-width: 175px;
+  }
+  .aeroplane1_animation {
+    animation: flew 4s linear infinite;
+  }
+  @keyframes flew {
+    50% {
+      transform: translate(40px, 100px);
+    }
+  }
+  .img_animation {
+    animation: scrol 3s linear infinite;
+  }
+  @keyframes scrol {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(-40px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .img2_animation {
+    animation: scrol 4s linear infinite;
+  }
+  @keyframes scrol {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(40px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .mw_200 {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .positionImage_xxl {
+    bottom: -29%;
+    left: 8%;
+  }
+
+  .w_1119_xxl {
+    width: 1119px;
+  }
+
+  .positionImage1_xxl {
+    right: 10%;
+    bottom: -20%;
+  }
+
+  .astroger_absolute_xxl {
+    right: 14%;
+    top: 4%;
+  }
+
+  .urnaus_absolute_xxl {
+    left: 15%;
+    top: 7%;
+  }
+  .lorem_decoration {
+    position: absolute;
+    bottom: 15px;
+    left: 25%;
+  }
+  .img_ladies {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+  }
+  .phase1_img {
+    position: absolute;
+    top: -1%;
+    left: 17%;
+  }
+  .phase2_img {
+    position: absolute;
+    top: 22%;
+    right: 18%;
+  }
+  .phase3_img {
+    position: absolute;
+    top: 45%;
+    left: 17%;
+  }
+  .phase4_img {
+    position: absolute;
+    top: 65%;
+    right: 17%;
+  }
+  .phase5_img {
+    position: absolute;
+    bottom: -1%;
+    left: 37%;
+  }
+  .phase1_text {
+    position: absolute;
+    top: 0;
+    left: 38%;
+  }
+  .phase2_text {
+    position: absolute;
+    top: 23%;
+    right: 40%;
+  }
+  .phase3_text {
+    position: absolute;
+    top: 45%;
+    right: 43%;
+  }
+  .phase4_text {
+    position: absolute;
+    top: 66%;
+    right: 38%;
+  }
+  .phase5_text {
+    position: absolute;
+    bottom: 0%;
+    right: 23%;
+  }
+  .aeroplane1_img {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+  .aeroplane2_img {
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+  }
+  .img1 {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+  }
+  .sdfdse_img {
+    position: absolute;
+    right: 2%;
+    bottom: 33%;
+  }
+  .mw_200_xl {
+    max-width: 100%;
+  }
+  .aeroplane2_animation {
+    animation: flew1 4s linear infinite;
+  }
+  @keyframes flew1 {
+    50% {
+      transform: translate(-40px, 100px);
+    }
+  }
+  .aeroplane1_animation {
+    animation: flew 4s linear infinite;
+  }
+  @keyframes flew {
+    50% {
+      transform: translate(40px, 100px);
+    }
+  }
 }

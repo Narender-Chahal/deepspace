@@ -9,7 +9,7 @@ function LastSection() {
         <img className="w-100 img_up_dawn" src={deep} alt="deep" />
       </div>
       <Container>
-        <div className="d-flex flex-column justify-content-center align-items-center vh_60 ">
+        <div className="d-flex flex-column justify-content-center align-items-center vh_80 ">
           <div className="mb-2">
             <img className="w-100" src={DeepSpace} alt="DeepSpace" />
           </div>
