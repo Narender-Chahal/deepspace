@@ -42,12 +42,14 @@ function GamePlay() {
                 className="w_100_xsm h_200_xsm w_540_sm w_650_md w_750_lg w_1019_xl w_1119_xxl"
                 alt="videoImage"
               />
-              <img
-                src={playBtn}
-                className="position-absolute w_40_xsm image_center"
-                width={80}
-                alt="playBtn"
-              />
+              <a href="#">
+                <img
+                  src={playBtn}
+                  className="position-absolute w_40_xsm image_center"
+                  width={80}
+                  alt="playBtn"
+                />
+              </a>
             </div>
           </div>
         </Container>
